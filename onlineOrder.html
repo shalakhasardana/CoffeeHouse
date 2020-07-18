@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <!--<meta name="viewport" content="width=device-width, initial-scale=1" /> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- build:css css/main.css -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <!-- endbuild -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans" />
+    <title>CoffeeHouse</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="maintext">
+            <div class="titleArea">
+                <h1 class="text-center font-weight-bold">COFFEE HOUSE</h1>
+            </div>
+        </div>
+    </header>
+    <div class="mt-5">
+    <div class="row row-cols-1 row-cols-md-3">
+        <div class="col mb-4">
+          <div class="card h-100">
+            <img id="pop" id="imageresource" src="img/pexels-photo-2516643.webp" class="card-img-top crop" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Drip</h5>
+              <p class="card-text">brewed using our Daybreak roast, a medium-dark coffee with notes of creamy chocolate malt </p>
+              <h6 class="font-weight-bold">$1.80 -$2.60</h6>          
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card h-100">
+            <img src="img/pexels-photo-302905.webp" class="card-img-top crop" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Mocha</h5>
+              <p class="card-text">Semi-sweet chocolate sauce, espresso, and velvety steamed milk, topped with whip cream.</p>
+              <h6 class="font-weight-bold">$6.80 -$9.60</h6>          
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card h-100">
+            <img src="img/pexels-photo-3719018.webp" class="card-img-top crop" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Mocha</h5>
+                <p class="card-text">Semi-sweet chocolate sauce, espresso, and velvety steamed milk, topped with whip cream.</p>
+                <h6 class="font-weight-bold">$6.80 -$9.60</h6>              </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card h-100">
+            <img src="img/pexels-photo-775878.webp" class="card-img-top crop" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Mocha</h5>
+                <p class="card-text">Semi-sweet chocolate sauce, espresso, and velvety steamed milk, topped with whip cream.</p>
+                <h6 class="font-weight-bold">$6.80 -$9.60</h6>             </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Creates the bootstrap modal where the image will appear -->
+<div class="modal fade" id="imagemodal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-body">
+          <img src="img/pexels-photo-2516643.webp" id="imagepreview" style="width:100%; height: 264px;" >
+          <h5 class="card-title">Drip</h5>
+              <p class="card-text">brewed using our Daybreak roast, a medium-dark coffee with notes of creamy chocolate malt </p>
+              <h6 class="font-weight-bold">$1.80 -$2.60</h6>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+    <footer class="site-footer">
+        <p>HandCrafted with <a href="#">on the Genesis FrameWork</a></p>
+    </footer>
+
+    <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
